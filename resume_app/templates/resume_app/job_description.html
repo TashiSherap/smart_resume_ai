@@ -1,0 +1,12 @@
+{% extends 'resume_app/base.html' %}
+
+{% block content %}
+<div class="container mt-5">
+    <h3>Paste Job Description</h3>
+    <form method="post" action="{% url 'analyze_resume' %}">
+        {% csrf_token %}
+        <textarea name="job_description" class="form-control" rows="8" required></textarea>
+        <button type="submit" class="btn btn-primary mt-3">Analyze Resume</button>
+    </form>
+</div>
+{% endblock %}
