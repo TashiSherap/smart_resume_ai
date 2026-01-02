@@ -1,19 +1,24 @@
 🧠 Smart Resume Analyzer & Builder
+AI-Powered ATS Optimization Platform
 
-An AI-powered web application that analyzes resumes against job descriptions, calculates ATS match scores, highlights missing keywords, and helps users build ATS-optimized resumes with smart suggestions.
+Analyze resumes. Match job descriptions. Build ATS-friendly resumes — smarter and faster.
 
-🚀 Features
+🚀 Overview
+
+Smart Resume Analyzer & Builder is a Django-based web application that helps job seekers optimize their resumes for Applicant Tracking Systems (ATS) by analyzing resumes against job descriptions and providing actionable feedback.
+
+✨ Key Features
 🔍 Resume Analyzer
 
-Upload resume (PDF/DOCX)
+Upload resume (PDF / DOCX)
 
 Paste job description
 
-ATS match score (%)
+ATS match score (percentage)
 
 Missing keyword detection
 
-Improvement suggestions
+Resume improvement suggestions
 
 🛠 Resume Builder
 
@@ -21,9 +26,9 @@ Role-based resume creation
 
 Profile summary support
 
-AI suggestions for skills, education & experience
+AI-driven suggestions
 
-ATS score preview
+Real-time ATS score preview
 
 Resume preview & PDF download
 
@@ -31,44 +36,47 @@ Resume preview & PDF download
 
 Backend: Django (Python)
 
-Frontend: HTML, Bootstrap 5
+Frontend: HTML5, Bootstrap 5
 
-Database: SQLite
+Database: SQLite (Django ORM)
 
-AI Logic: Keyword-based ATS + rule-based recommendations
+AI Logic: Keyword-based ATS scoring + rule-based recommender
 
 PDF Generation: ReportLab
 
-🏗 Architecture Overview
-Frontend (HTML + Bootstrap)
-        |
-Django Views
-        |
-AI Engine (Parser • ATS Scorer • Recommender)
-        |
+🏗 System Architecture
+User Interface (HTML + Bootstrap)
+        ↓
+Django Views & Controllers
+        ↓
+AI Engine
+(Parser • ATS Scorer • Recommender)
+        ↓
 SQLite Database
-        |
+        ↓
 PDF Generator
 
-📊 ATS Scoring
+📊 ATS Scoring Logic
 
-Role-specific keyword matching
+Role-based keyword matching
 
-Job Description vs Resume comparison
+Resume vs Job Description comparison
 
-Missing skills identification
+Missing skills detection
 
-ATS score shown as percentage
+Score capped at 100%
 
-🗃 Database
+Visual progress bar display
 
-Resume data stored in SQLite
+🗃 Database Design
+
+Resume data stored using SQLite
 
 Managed via Django ORM
 
 Accessible through Django Admin Panel
 
-⚙️ Setup
+⚙️ Installation & Setup
 git clone https://github.com/yourusername/smart-resume-analyzer-builder.git
 cd smart-resume-analyzer-builder
 python -m venv venv
@@ -78,29 +86,31 @@ python manage.py migrate
 python manage.py runserver
 
 
-Visit:
-👉 http://127.0.0.1:8000/
+🔗 Open in browser:
+http://127.0.0.1:8000/
 
-🎯 Use Case
+🎯 Intended Use
 
-Job seekers optimizing resumes for ATS
+Job seekers improving ATS compatibility
 
-Students learning AI + Django integration
+Students learning AI + Django
 
-Academic final year / dissertation project
+Final-year / dissertation-level academic project
 
 📌 Future Enhancements
 
 GPT-based resume rewriting
 
-User authentication
+User authentication & accounts
 
-JD skill auto-extraction
+Automatic JD skill extraction
 
 Resume version comparison
 
+Resume ranking system
+
 📄 License
 
-Educational use only.
+This project is intended for educational and academic use.
 
-⭐ If you find this project useful, consider starring the repository!
+⭐ If you find this project helpful, please star the repository!
