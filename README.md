@@ -1,82 +1,77 @@
-🧠 Smart Resume Analyzer & Builder
+<h1 align="center">🧠 Smart Resume Analyzer & Builder</h1>
+
+<h3 align="center">
 AI-Powered ATS Optimization Platform
+</h3>
 
-Analyze resumes. Match job descriptions. Build ATS-friendly resumes — smarter and faster.
+<hr>
 
-🚀 Overview
+<p align="center">
+Analyze resumes • Match job descriptions • Build ATS-friendly resumes
+</p>
 
-Smart Resume Analyzer & Builder is a Django-based web application that helps job seekers optimize their resumes for Applicant Tracking Systems (ATS) by analyzing resumes against job descriptions and providing actionable feedback.
+---
 
-✨ Key Features
-🔍 Resume Analyzer
+<h2>🚀 Overview</h2>
 
-Upload resume (PDF / DOCX)
+<p>
+<strong>Smart Resume Analyzer & Builder</strong> is a Django-based web application
+that helps job seekers optimize resumes for Applicant Tracking Systems (ATS)
+by analyzing resumes against job descriptions and providing actionable feedback.
+</p>
 
-Paste job description
+---
 
-ATS match score (percentage)
+<h2>✨ Key Features</h2>
 
-Missing keyword detection
+<h3>🔍 Resume Analyzer</h3>
 
-Resume improvement suggestions
+<ul>
+  <li>Upload resume (PDF / DOCX)</li>
+  <li>Paste job description</li>
+  <li>ATS match score (%)</li>
+  <li>Missing keyword detection</li>
+  <li>Improvement suggestions</li>
+</ul>
 
-🛠 Resume Builder
+<h3>🛠 Resume Builder</h3>
 
-Role-based resume creation
+<ul>
+  <li>Role-based resume creation</li>
+  <li>Profile summary support</li>
+  <li>AI-driven suggestions</li>
+  <li>Real-time ATS score preview</li>
+  <li>PDF download</li>
+</ul>
 
-Profile summary support
+---
 
-AI-driven suggestions
+<h2>🧩 Tech Stack</h2>
 
-Real-time ATS score preview
+<ul>
+  <li><strong>Backend:</strong> Django (Python)</li>
+  <li><strong>Frontend:</strong> HTML5, Bootstrap 5</li>
+  <li><strong>Database:</strong> SQLite (Django ORM)</li>
+  <li><strong>AI Logic:</strong> Keyword-based ATS scoring</li>
+  <li><strong>PDF:</strong> ReportLab</li>
+</ul>
 
-Resume preview & PDF download
+---
 
-🧩 Tech Stack
+<h2>📊 ATS Scoring Logic</h2>
 
-Backend: Django (Python)
+<ul>
+  <li>Role-based keyword matching</li>
+  <li>Resume vs Job Description comparison</li>
+  <li>Missing skills detection</li>
+  <li>Score capped at 100%</li>
+</ul>
 
-Frontend: HTML5, Bootstrap 5
+---
 
-Database: SQLite (Django ORM)
+<h2>⚙️ Installation</h2>
 
-AI Logic: Keyword-based ATS scoring + rule-based recommender
-
-PDF Generation: ReportLab
-
-🏗 System Architecture
-User Interface (HTML + Bootstrap)
-        ↓
-Django Views & Controllers
-        ↓
-AI Engine
-(Parser • ATS Scorer • Recommender)
-        ↓
-SQLite Database
-        ↓
-PDF Generator
-
-📊 ATS Scoring Logic
-
-Role-based keyword matching
-
-Resume vs Job Description comparison
-
-Missing skills detection
-
-Score capped at 100%
-
-Visual progress bar display
-
-🗃 Database Design
-
-Resume data stored using SQLite
-
-Managed via Django ORM
-
-Accessible through Django Admin Panel
-
-⚙️ Installation & Setup
+<pre>
 git clone https://github.com/yourusername/smart-resume-analyzer-builder.git
 cd smart-resume-analyzer-builder
 python -m venv venv
@@ -84,33 +79,31 @@ venv\Scripts\activate
 pip install -r requirements.txt
 python manage.py migrate
 python manage.py runserver
+</pre>
 
+---
 
-🔗 Open in browser:
-http://127.0.0.1:8000/
+<h2>🎯 Intended Use</h2>
 
-🎯 Intended Use
+<ul>
+  <li>Job seekers optimizing ATS compatibility</li>
+  <li>Students learning Django + AI logic</li>
+  <li>Bachelor / Final-year projects</li>
+</ul>
 
-Job seekers improving ATS compatibility
+---
 
-Students learning AI + Django
+<h2>📌 Future Enhancements</h2>
 
-Final-year / dissertation-level academic project
+<ul>
+  <li>GPT-based resume rewriting</li>
+  <li>User authentication</li>
+  <li>Automatic JD skill extraction</li>
+  <li>Resume ranking system</li>
+</ul>
 
-📌 Future Enhancements
+---
 
-GPT-based resume rewriting
-
-User authentication & accounts
-
-Automatic JD skill extraction
-
-Resume version comparison
-
-Resume ranking system
-
-📄 License
-
-This project is intended for educational and academic use.
-
-⭐ If you find this project helpful, please star the repository!
+<p align="center">
+⭐ If you find this project useful, please star the repository!
+</p>
